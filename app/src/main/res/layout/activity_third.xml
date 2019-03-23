@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/base_padding"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_nombre"/>
+
+    <TextView
+        android:id="@+id/tv_message_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:textSize="@dimen/size_normal"
+        android:text="hola"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_apellido"/>
+
+    <TextView
+        android:id="@+id/tv_message_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_normal"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:text="hola"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texT_email"/>
+
+    <TextView
+        android:id="@+id/tv_message_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_normal"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:text="hola"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_genero"/>
+
+    <TextView
+        android:id="@+id/tv_message_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_normal"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:text="hola"/>
+
+</LinearLayout>

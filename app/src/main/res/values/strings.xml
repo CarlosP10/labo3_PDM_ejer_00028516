@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">labo3</string>
+    <string name="text_nombre">Nombre:</string>
+    <string name="nombre">Nombre</string>
+    <string name="text_apellido">Apellido:</string>
+    <string name="te_apellido">Apellido</string>
+    <string name="texT_email">Email:</string>
+    <string name="t_email">email</string>
+    <string name="text_genero">Genero:</string>
+    <string name="text_masculino">Masculino</string>
+    <string name="text_femenino">Femenino</string>
+    <string name="text_send">send</string>
+    <string name="text_share">share</string>
+    <string name="hola">hola</string>
+</resources>
