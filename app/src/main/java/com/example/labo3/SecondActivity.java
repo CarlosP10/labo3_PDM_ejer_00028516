@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 import com.example.labo3.utils.AppConstant;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class SecondActivity extends AppCompatActivity {
 
     private TextView mTextname, mTextLastname, mTextemail, mTextgender;
@@ -37,13 +40,25 @@ public class SecondActivity extends AppCompatActivity {
             String lastname =mTextLastname.getText().toString();
             String email =mTextemail.getText().toString();
             String gender =mTextgender.getText().toString();
+            JSONObject json = new JSONObject();
+            try {
+                json.put("name", name);
+                json.put("lastname", lastname);
+                json.put("email", email);
+                json.put("gender", gender);
+            }catch (JSONException e){}
+
+
             Intent mIntents = new Intent();
             mIntents.setType("text/plain");
-            mIntents.setAction(Intent.ACTION_SEND);
+            mIntents.setAction(Intent.ACTION_SEND);/*
             mIntents.putExtra(AppConstant.TEXT_NAME, name);
             mIntents.putExtra(AppConstant.TEXT_LASTNAME, lastname);
             mIntents.putExtra(AppConstant.TEXT_EMAIL, email);
             mIntents.putExtra(AppConstant.TEXT_GENDER, gender);
+            */
+
+            mIntents.putExtra("JSON", String.valueOf(json));
             startActivity(mIntents);
         });
     }

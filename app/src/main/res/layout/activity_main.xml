@@ -10,26 +10,28 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_nombre"/>
+        android:text="@string/t_username"/>
 
     <EditText
         android:id="@+id/et_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/normal_margin"
-        android:hint="@string/nombre"/>
+        android:hint="@string/text_username"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_apellido"/>
+        android:text="@string/t_pass"/>
 
     <EditText
         android:id="@+id/et_lastname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/normal_margin"
-        android:hint="@string/te_apellido"/>
+        android:inputType="textPassword"
+        android:layout_marginBottom="@dimen/normal_margin">
+        <requestFocus />
+    </EditText>
 
     <TextView
         android:layout_width="wrap_content"

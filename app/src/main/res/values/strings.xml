@@ -12,4 +12,8 @@
     <string name="text_send">send</string>
     <string name="text_share">share</string>
     <string name="hola">hola</string>
+    <string name="text_datos">datos</string>
+    <string name="text_username">Username</string>
+    <string name="t_username">Username:</string>
+    <string name="t_pass">Password:</string>
 </resources>

@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_nombre"/>
+        android:text="@string/t_username"/>
 
     <TextView
         android:id="@+id/tv_message_name"
@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_apellido"/>
+        android:text="@string/t_pass"/>
 
     <TextView
         android:id="@+id/tv_message_lastname"
